@@ -15,6 +15,24 @@ section {
   justify-content: center;
 }
 
+img {
+  height: 600px;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  margin-left: 450px;
+  margin-top: 150px;
+}
+
+.image {
+  display: flex;
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 600px;
+}
+
 #circle1 {
   display: flex;
   position: static;
