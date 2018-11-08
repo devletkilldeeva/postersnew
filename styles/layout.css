@@ -92,7 +92,6 @@ img {
 
 #circle3 {
   display: flex;
-  /* position: fixed; */
   width: 100px;
   height: 100px;
   background: #410279;
@@ -132,7 +131,6 @@ img {
 }
 
 .text {
-  /* margin-top: -2500px; */
   margin-left: 500px;
   font-family: 'Roboto Mono', monospace;
   font-size: 100px;
@@ -140,37 +138,28 @@ img {
 }
 
 #text1 {
-  /* display: block;
-  position: static; */
   margin-top: 470px;
-  /* margin-left: 50px; */
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
   color: white;
 }
 
 #text2 {
-  /* position: static; */
   margin-top: 50px;
-  /* margin-left: 100px; */
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
   color: white;
 }
 
 #text3 {
-  /* position: static; */
   margin-top: 50px;
-  /* margin-left: 240px; */
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
   color: white;
 }
 
 #text4 {
-  /* position: static; */
   margin-top: 50px;
-  /* margin-left: 240px; */
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
   color: white;
