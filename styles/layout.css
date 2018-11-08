@@ -1,3 +1,5 @@
+@import "reset.css";
+
 body {
 
   -webkit-font-smoothing: antialiased;
@@ -10,30 +12,41 @@ body {
   box-sizing: border-box;
 }
 
-section {
-  display: flex;
-  width: 1800px;
-  height: 2880px;
-  align-items: center;
-  justify-content: center;
-}
-
 img {
-  height: 600px;
+  height: 800px;
 }
 
 .logo {
-  position: absolute;
-  display: flex;
-  margin-left: 450px;
-  margin-top: 150px;
+  position: static;
+  margin-left: 100px;
+  margin-top: 350px;
 }
 
 .image {
+  background-size: 700px;
+  position: static;
+  margin-left: -600px;
+  margin-top: 900px;
+}
+
+.arm1 {
+  background-size: 600px;
   display: flex;
-  position: absolute;
-  margin-left: 1300px;
-  margin-top: 600px;
+  position: static;
+  margin-left: -600px;
+  margin-top: -900px;
+}
+
+.arm2 {
+  background-size: 600px;
+  display: flex;
+  position: static;
+  margin-left: -600px;
+  margin-top: 50px;
+}
+
+.circle {
+  box-sizing: border-box;
 }
 
 #circle1 {
@@ -44,7 +57,7 @@ img {
   background: #b100c3;
   border-radius: 50%;
   margin-top: 50px;
-  margin-left: 190px;
+  margin-left: 150px;
 }
 
 #circle1:hover{
@@ -64,7 +77,7 @@ img {
   background: #7000c6;
   border-radius: 50%;
   margin-top: 250px;
-  margin-left: 235px;
+  margin-left: 195px;
   opacity: 0.8;
 }
 
@@ -84,8 +97,8 @@ img {
   height: 100px;
   background: #410279;
   border-radius: 50%;
-  margin-top: 200px;
-  margin-left: 285px;
+  margin-top: 205px;
+  margin-left: 243px;
 }
 
 #circle3:hover{
@@ -105,7 +118,7 @@ img {
   background: #2a0f79;
   border-radius: 50%;
   margin-top: 200px;
-  margin-left: 308px;
+  margin-left: 270px;
   margin-bottom: 50px;
 }
 
@@ -118,43 +131,46 @@ img {
 
 }
 
-#text {
-  display: flex;
-  position: absolute;
-  margin-top: -2500px;
-  margin-left: -10px;
+.text {
+  /* margin-top: -2500px; */
+  margin-left: 500px;
   font-family: 'Roboto Mono', monospace;
   font-size: 100px;
   color: white;
 }
 
+#text1 {
+  /* display: block;
+  position: static; */
+  margin-top: 470px;
+  /* margin-left: 50px; */
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+  color: white;
+}
+
 #text2 {
+  /* position: static; */
   margin-top: 50px;
-  margin-left: 240px;
+  /* margin-left: 100px; */
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
   color: white;
 }
 
 #text3 {
-  margin-top: 310px;
-  margin-left: 240px;
+  /* position: static; */
+  margin-top: 50px;
+  /* margin-left: 240px; */
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
   color: white;
 }
 
 #text4 {
-  margin-top: 870px;
-  margin-left: -1000px;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 40px;
-  color: white;
-}
-
-#text5 {
-  margin-top: 1200px;
-  margin-left: 200px;
+  /* position: static; */
+  margin-top: 50px;
+  /* margin-left: 240px; */
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
   color: white;
